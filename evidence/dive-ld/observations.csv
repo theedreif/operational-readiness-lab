@@ -1,0 +1,1 @@
+run_id,observation_id,synthetic_vehicle_id,mission_phase,expected_state,observed_state,contact_state,telemetry_quality,anomaly_timestamp,trigger_detected,classification,disposition,decision_latency_seconds,authority_engaged,recovery_action,rationale,final_state,false_alarm,evidence_status
