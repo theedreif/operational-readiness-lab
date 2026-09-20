@@ -20,21 +20,26 @@ Logic Anchor + Friction Matrix + Telemetry Specification.
 12 predeclared synthetic scenarios vary automation correctness, confidence, contradiction, ambiguity, terminology, severity cues, authority, workload, and timing.
 
 ### Evidence
-No run data yet. Evidence remains design-level until observations are collected.
+No run data at v1.0 creation. Evidence remained design-level.
 
 ### Update
-The case has been converted from a narrative experiment description into a reproducible evidence pack with a fixed scenario set, telemetry schema, scoring key, claim map, and results template.
+The case was converted from a narrative experiment description into a reproducible evidence pack with a fixed scenario set, telemetry schema, scoring key, claim map, and results template.
 
-## Future Entries
+## v1.1 — Run 001 Model Baseline
 
-For every change record:
+### Evidence
+All 12 predeclared scenarios were traversed by a model-generated baseline. The recorded dispositions matched the experimental key in 12/12 scenarios. Eight contradiction-bearing scenarios recorded contradiction detection in 8/8. No latency or genuine human-confidence data were manufactured.
 
-- version/date;
-- evidence that triggered the change;
-- artifact changed;
-- old rule or design;
-- new rule or design;
-- reason;
-- evidence status after change.
+### What the evidence supports
+The pack is internally traversable as a simulation instrument and the disposition taxonomy can be applied consistently to the current scenario descriptions.
+
+### What the evidence does not support
+The run does not support claims about human judgment, automation bias, DFR field readiness, predictive validity, agency performance, vendor performance, or operational outcomes.
+
+### Update triggered
+Run provenance is now a required first-class field. Model baselines must be labeled separately from human participants. Future runs should introduce independent judgment and preserve blinded scoring where possible.
+
+### Evidence status after change
+**SIMULATED / MODEL BASELINE**
 
 Do not rewrite history. Preserve prior versions through Git.
