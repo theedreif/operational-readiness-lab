@@ -75,3 +75,10 @@ Use repeated evidence to improve:
 ### Public sources
 - Al Jazeera, 9 September 2026: https://www.aljazeera.com/news/2026/9/9/has-iran-captured-an-unmanned-us-submarine-what-we-know
 - Naval News, 8/9 September 2026: https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/
+
+
+## Deep Evidence Pack
+
+**[Open Dive-LD Evidence Pack v1.0](../evidence/dive-ld/README.md)** — dated source record, claim → evidence map, Logic Anchor, Friction Matrix, telemetry plan, bounded rehearsal protocol, observation schema, results, and update log.
+
+The vehicle loss/recovery remains **PUBLICLY REPORTED**. The proposed Lab instrument remains **ILLUSTRATIVE / NOT YET RUN** until an authorized tabletop, simulator, or synthetic rehearsal produces observations.
