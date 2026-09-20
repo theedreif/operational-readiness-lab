@@ -13,7 +13,7 @@ FAILURE MODE → SIGNAL → JUDGMENT → TOOL → FRICTION → EVIDENCE → UPDA
 | Case | Domain | Evidence status | Failure mode | Judgment under test | Primary instrument |
 |---|---|---|---|---|---|
 | [ReadyLink](readylink/README.md) | DFR / information exposure | PUBLICLY REPORTED case + deep illustrative instrument | Normal sharing persists beyond intended audience/time | Does current sharing still match authorized mission intent? | Logic Anchor + Telemetry Specification |
-| [Dive-LD](../experiments/dive-ld.md) | Maritime autonomy | PUBLICLY REPORTED case + illustrative instrument | Platform degradation/loss becomes recovery and exposure problem | When does anomalous state require a different decision regime? | Logic Anchor + Friction Matrix |
+| [Dive-LD](dive-ld/README.md) | Maritime autonomy | PUBLICLY REPORTED case + deep illustrative instrument | Platform degradation/loss becomes recovery and exposure problem | When does anomalous state require a different decision regime? | Logic Anchor + Friction Matrix |
 | [DFR Triage](dfr-triage/README.md) | Agentic triage / DFR | ILLUSTRATIVE → predeclared simulation pack | Wrong/high-confidence recommendation receives shallow human approval | Accept, inspect, escalate, or reject? | Logic Anchor + Friction Matrix + Telemetry Specification |
 | [Silent Churn](../experiments/silent-churn.md) | Customer / commercial | ILLUSTRATIVE | Green dashboard conceals deteriorating relationship | Is the account healthy, or is the dashboard lagging reality? | Logic Anchor + Telemetry Specification |
 
@@ -60,3 +60,10 @@ Promote a claim only when the evidence earns it.
 **[Open the evidence pack](readylink/README.md)** — public source record, claim → evidence map, Logic Anchor, Friction Matrix, telemetry plan, bounded rehearsal protocol, observation CSV, results, and update log.
 
 **Current boundary:** the historical case is **PUBLICLY REPORTED**; the proposed Lab instrument is **ILLUSTRATIVE / NOT YET RUN**. No prevention or field-effectiveness claim is made.
+
+
+### Dive-LD v1.0
+
+**[Open the evidence pack](dive-ld/README.md)** — dated public source record, claim → evidence map, Logic Anchor, Friction Matrix, telemetry plan, bounded rehearsal protocol, observation CSV, results, and update log.
+
+**Current boundary:** vehicle loss/recovery is **PUBLICLY REPORTED**; the Lab instrument is **ILLUSTRATIVE / NOT YET RUN**. No internal-readiness-cause or prevention claim is made.
