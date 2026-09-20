@@ -1,29 +1,62 @@
 # Silent Churn
 
-**Evidence status: DESIGN DEMONSTRATION**
+**Evidence status: DESIGN DEMONSTRATION / ILLUSTRATIVE**
 
-## Readiness Question
-Can a green dashboard conceal a failing customer relationship?
+> **Golden Thread:** FAILURE MODE → SIGNAL → JUDGMENT → TOOL → FRICTION → EVIDENCE → UPDATE
+
+## Boundary
+This is a design demonstration, not evidence from a live customer deployment. It exists to show how the Field System can instrument weak-signal judgment outside defense or autonomy.
 
 ## Failure Mode
 A renewal account appears healthy in standard reporting while weak behavioral signals indicate emerging churn risk.
 
 ## Signal
-Candidate signals include response latency, repeated rescheduling, unopened communications, and changes in engagement pattern.
+Candidate signals:
+- increasing response latency;
+- repeated rescheduling;
+- unopened communications;
+- declining stakeholder participation;
+- changes in engagement pattern;
+- positive headline metrics that conflict with relationship behavior.
 
-## Threshold
-No universal threshold is asserted here. A threshold must be established from the organization's historical evidence and accountable business rules.
+## Judgment
+**Is the account genuinely healthy, or is the dashboard lagging the relationship?**
+
+The operator must decide whether weak signals justify investigation or escalation before a lagging metric turns red.
+
+## Tool
+**Logic Anchor + Telemetry Specification**
+
+Example Logic Anchor:
+- **Trigger:** weak engagement signals diverge from the account's headline health state.
+- **Filter:** normal seasonality, stakeholder changes, known scheduling constraints, product usage, support history, commercial context, and prior pattern.
+- **Anchor:** maintain, investigate, escalate, or intervene according to the organization's evidence-backed rules.
 
 ## Friction
-Replay a realistic account history containing apparently healthy headline metrics but deteriorating weak signals.
-
-## Red
-The operator or system continues to classify the account as healthy after the defined evidence boundary has been crossed.
+Replay a realistic account history containing apparently healthy headline metrics while weak signals deteriorate. Add competing accounts, incomplete notes, reassuring historical performance, and a plausible benign explanation for each individual signal.
 
 ## Evidence
-Capture which signals were noticed, which were ignored, classification, confidence, time to escalation, and recovery action.
+Capture:
+- signals noticed;
+- signals ignored;
+- classification;
+- confidence;
+- time to investigation/escalation;
+- rationale;
+- recovery action;
+- eventual account outcome if the experiment is later tied to real historical or live data.
+
+**Current evidence level:** **ILLUSTRATIVE**.
 
 ## Update
-Use repeated misses to refine the Logic Anchor, scenario design, and telemetry specification.
+Use repeated misses to:
+1. refine the Logic Anchor;
+2. revise the signal set;
+3. improve the friction scenario;
+4. adjust telemetry;
+5. compare simulated judgments with historical near-misses or real outcomes before making a readiness claim.
 
-This is a design demonstration, not evidence from a live customer deployment.
+## Inspectable Claim
+**Hypothesis to test:** apparently healthy aggregate metrics can lag meaningful deterioration visible in weaker behavioral signals.
+
+No universal churn threshold or predictive effect is asserted.
