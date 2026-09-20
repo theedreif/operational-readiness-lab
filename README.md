@@ -2,6 +2,14 @@
 
 **The repositories explain the doctrine. The Lab shows what happens when you run it.**
 
+
+> **ED REIF FIELD SYSTEM — SEVEN DOORS**  
+> [BUILD · Operational Readiness](https://github.com/theedreif/operational-readiness) → [DECIDE · Judgment at the Edge](https://github.com/theedreif/judgment-at-the-edge) → [POSITION · Decision Science](https://github.com/theedreif/decision-science) → [COMMUNICATE · High-Consequence Communication](https://github.com/theedreif/high-consequence-communication) → [PROVE · Operational Readiness Lab](https://github.com/theedreif/operational-readiness-lab) → [UPDATE · Field Notes](https://github.com/theedreif/field-notes) → [DEPLOY · ORaaS](https://github.com/theedreif/oraas)  
+> **BUILD → DECIDE → POSITION → COMMUNICATE → PROVE → UPDATE → DEPLOY**  
+> *One Body of Work. Seven Doors In.*
+
+---
+
 The Operational Readiness Lab is the experimental proving ground for the Ed Reif Field System. It turns doctrine into bounded scenarios, observable behavior, explicit thresholds, and evidence that can be inspected.
 
 > **PREPARE → SCALE → OPERATE → COMMUNICATE → PROVE**
