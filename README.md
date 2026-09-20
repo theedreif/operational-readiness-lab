@@ -43,6 +43,16 @@ The Lab asks five questions:
 | [Silent Churn](experiments/silent-churn.md) | Can a green dashboard conceal a failing relationship? | Design demonstration |
 | [DFR Triage](experiments/dfr-triage.md) | Can confidence remain high while classification quality degrades? | Illustrative experiment |
 
+## Evidence Case Index
+
+**[Open the Evidence Case Index](evidence/case-index.md)** — compare ReadyLink, Dive-LD, DFR Triage, and Silent Churn through one inspectable Golden Thread:
+
+```text
+FAILURE MODE → SIGNAL → JUDGMENT → TOOL → FRICTION → EVIDENCE → UPDATE
+```
+
+The case and the instrument do not automatically share the same evidence level. Public reporting can establish the incident boundary while the proposed readiness instrument remains illustrative.
+
 ## Instruments
 
 The Lab uses reusable instruments rather than one-off demonstrations:
