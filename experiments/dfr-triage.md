@@ -61,3 +61,12 @@ After repeated trials:
 **Hypothesis to test:** high model confidence plus fast human approval can conceal weak independent judgment.
 
 That hypothesis is deliberately not presented as a validated field claim.
+
+
+## Evidence Pack v1.0
+
+The experiment now has a predeclared reproducible evidence package: scenario set, Logic Anchor, Friction Matrix, telemetry schema, observation template, results template, claim map, and update log.
+
+**[Open the DFR Triage Evidence Pack v1.0](../evidence/dfr-triage/README.md)**
+
+The pack contains **no invented run results**. Its current contribution is instrument design and predeclared measurement. Evidence advances to **SIMULATED** only when the scenarios are actually run and observations are recorded.
