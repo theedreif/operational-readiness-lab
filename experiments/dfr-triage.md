@@ -1,36 +1,63 @@
 # DFR Triage — Confident Wrong Classification
 
-**Evidence status: ILLUSTRATIVE**
+**Evidence status: ILLUSTRATIVE EXPERIMENT**
 
-## Readiness Question
-Can confidence remain high while classification quality degrades?
+> **Golden Thread:** FAILURE MODE → SIGNAL → JUDGMENT → TOOL → FRICTION → EVIDENCE → UPDATE
 
-## Scenario
-An agentic triage system reads an inbound emergency-call transcript, assigns a response tier, and recommends launch or hold. A human dispatcher approves while managing competing workload.
+## Boundary
+This is a designed experiment, not a claim about any specific DFR provider, agency, deployment, model, or field result. Numerical thresholds remain **UNKNOWN / REQUIRES AUTHORITATIVE VERIFICATION**.
 
 ## Failure Mode
-The system is wrong and certain while the human approval occurs too quickly to add meaningful independent judgment.
+An agentic triage system is wrong and confident while a human approval occurs too quickly to add meaningful independent judgment.
 
 ## Signal
-Calibration gap between stated confidence and observed accuracy within the fast-approval population.
+Calibration gap between stated confidence and observed classification quality, especially inside the fast-approval population or a stressed subgroup.
 
-## Threshold
-The numerical threshold must be established from authoritative operational evidence. Any example number used in a rehearsal is illustrative unless validated by the accountable organization.
+## Judgment
+**Does the recommendation deserve acceptance, independent review, escalation, or rejection given the evidence available now?**
+
+The human role is not to click approve. It is to add judgment where automation may be brittle.
+
+## Tool
+**Logic Anchor + Friction Matrix + Telemetry Specification**
+
+Example Logic Anchor:
+- **Trigger:** automated response tier and confidence are presented for approval.
+- **Filter:** source quality, contradictory cues, corrected details, uncertainty, local terminology, severity, and evidence of model brittleness.
+- **Anchor:** approve, inspect, escalate, or override according to authoritative policy.
 
 ## Friction
 Candidate injections:
-- overlapping voices
-- an address stated and then corrected
-- local terminology poorly represented in training data
-- calm or flat affect during a severe incident
-
-## Red
-The stressed subgroup degrades materially while aggregate accuracy remains apparently healthy.
+- overlapping voices;
+- an address stated and then corrected;
+- local terminology poorly represented in training data;
+- calm or flat affect during a severe incident;
+- contradictory details arriving late;
+- simultaneous workload that encourages rapid approval.
 
 ## Evidence
-Capture response tier, confidence, ground truth, approval latency, injected condition, human intervention, and recovery.
+Capture:
+- recommended response tier;
+- confidence;
+- authoritative/validated ground truth where available;
+- approval latency;
+- injected condition;
+- cues inspected;
+- human intervention/override;
+- final classification;
+- recovery after error.
+
+**Current evidence level:** **ILLUSTRATIVE**. No field-effectiveness claim is made.
 
 ## Update
-Refine the Logic Anchor and test whether the signal survives new variations.
+After repeated trials:
+1. identify conditions associated with fast acceptance and degraded classification;
+2. refine the Logic Anchor;
+3. add or remove friction variables;
+4. test whether the signal survives new variations;
+5. only promote the claim when evidence advances up the Evidence Ladder.
 
-This experiment is not a claim about any specific DFR provider, agency, deployment, or field result.
+## Inspectable Claim
+**Hypothesis to test:** high model confidence plus fast human approval can conceal weak independent judgment.
+
+That hypothesis is deliberately not presented as a validated field claim.
