@@ -2,6 +2,10 @@
 
 **The architecture explains the system. The evidence layer makes it inspectable.**
 
+## Evidence Dashboard
+
+**[Open the Evidence Dashboard](dashboard.md)** — portfolio-level view of claim → evidence level → inspectable artifact → last evidence event → next evidence required.
+
 Every case follows the same Golden Thread:
 
 ```text
