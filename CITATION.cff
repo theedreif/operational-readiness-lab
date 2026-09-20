@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this laboratory architecture or its instruments, please cite this repository."
+title: "Operational Readiness Lab"
+type: software
+authors:
+  - family-names: "Reif"
+    given-names: "Ed"
+    alias: "theedreif"
+abstract: "Experimental proving ground for the Ed Reif Field System, translating operational-readiness doctrine into bounded friction, observable behavior, telemetry, and evidence."
+keywords:
+  - operational-readiness
+  - decision-science
+  - human-performance
+  - judgment-under-uncertainty
+  - synthetic-friction
+  - telemetry
+  - field-learning
+  - autonomous-systems
+repository-code: "https://github.com/theedreif/operational-readiness-lab"
+url: "https://github.com/theedreif/operational-readiness-lab"
+license: "All rights reserved"
