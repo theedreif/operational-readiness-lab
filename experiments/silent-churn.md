@@ -60,3 +60,10 @@ Use repeated misses to:
 **Hypothesis to test:** apparently healthy aggregate metrics can lag meaningful deterioration visible in weaker behavioral signals.
 
 No universal churn threshold or predictive effect is asserted.
+
+
+## Deep Evidence Pack
+
+**[Open Silent Churn Evidence Pack v1.0](../evidence/silent-churn/README.md)** — claim → evidence map, Logic Anchor, Friction Matrix, 12-scenario set, telemetry specification, observation schema, results, and update log.
+
+The pack remains **ILLUSTRATIVE / PREDECLARED SIMULATION — NOT YET RUN**. No churn-prediction or retention-effect claim is made.
