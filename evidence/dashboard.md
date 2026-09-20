@@ -10,7 +10,7 @@
 
 | Case | Domain | Strongest evidence now | Inspectable artifact | Last test / evidence event | Next evidence required |
 |---|---|---|---|---|---|
-| [DFR Triage](dfr-triage/README.md) | Agentic triage / DFR | **SIMULATED — MODEL BASELINE** | [Run 001 results](dfr-triage/results.md) · [observations](dfr-triage/observations.csv) | Run 001: 12-scenario model baseline complete | blinded human or independently generated run; capture latency, confidence, misses, revision and recovery |
+| [DFR Triage](dfr-triage/README.md) | Agentic triage / DFR | **SIMULATED — MODEL BASELINE** | [Run 001 results](dfr-triage/results.md) · [observations](dfr-triage/observations.csv) | Run 001: 12-scenario model baseline complete | **Supervisor Calibration pack OPEN**; obtain independent blind expert review, then classify agreement/disagreement |
 | [ReadyLink](readylink/README.md) | DFR / information exposure | **PUBLICLY REPORTED CASE**; instrument illustrative | [Source record](readylink/source-record.md) · [rehearsal protocol](readylink/rehearsal-protocol.md) | public incident + product guidance mapped; Lab rehearsal not run | authorized non-sensitive rehearsal measuring detection and restriction/revocation behavior |
 | [Dive-LD](dive-ld/README.md) | Maritime autonomy | **PUBLICLY REPORTED CASE**; instrument illustrative | [Source record](dive-ld/source-record.md) · [rehearsal protocol](dive-ld/rehearsal-protocol.md) | public vehicle-loss case mapped; Lab rehearsal not run | tabletop/simulator run with predeclared anomaly boundary, authority path and telemetry |
 | [Silent Churn](silent-churn/README.md) | Customer / commercial | **ILLUSTRATIVE / PREDECLARED SIMULATION** | [12-scenario set](silent-churn/scenarios.md) · [telemetry spec](silent-churn/telemetry-spec.md) | evidence pack specified; no run yet | blinded simulation; then de-identified historical outcome comparison if authorized |
@@ -65,13 +65,21 @@ VALIDATED READINESS CLAIM
 
 A case may contain multiple evidence levels at once. A publicly reported incident does not make the proposed Lab instrument field-validated. A simulation can show instrument behavior without proving predictive validity.
 
+## Supervisor Calibration — Open
+
+**[DFR Triage Supervisor Calibration Pack](dfr-triage/supervisor-calibration.md)** is ready for independent review.
+
+The reviewer does not see the scoring key until committing all 12 judgments. Disagreement is classified as calibrated agreement, reasonable alternative, scenario ambiguity, anchor defect, key defect, or authority gap.
+
+**No calibration result is claimed yet.** The next evidence event requires an independent reviewer.
+
 ## Portfolio Gaps
 
 | Gap | Current state | Closure condition |
 |---|---|---|
 | Independent human judgment | not yet captured | blinded participant observations |
 | Decision latency | not available in model baseline | timed human/simulator run |
-| Supervisor calibration | not yet captured | independent expert review against predeclared cases |
+| Supervisor calibration | **protocol + DFR review pack ready; no completed independent review yet** | independent expert completes blind review and disagreements are classified |
 | Near-miss comparison | not yet attached | authorized historical cases mapped to the same instrument |
 | Field outcome correlation | not established | longitudinal or retrospective outcome evidence |
 | Validated readiness claim | not established | evidence ladder completed for a bounded claim |
