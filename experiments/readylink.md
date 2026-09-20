@@ -66,3 +66,10 @@ Turn the exposure pattern into a repeatable readiness check:
 ### Public sources
 - WIRED, 13 July 2026: https://www.wired.com/story/sfpd-drone-video-leak-surveillance/
 - Skydio ReadyLink / product guidance: https://support.skydio.com/hc/en-us/articles/29509092586139-Getting-Started-with-Skydio
+
+
+## Deep Evidence Pack
+
+**[Open ReadyLink Evidence Pack v1.0](../evidence/readylink/README.md)** — source record, claim → evidence map, Logic Anchor, Friction Matrix, telemetry plan, bounded rehearsal protocol, observation schema, results, and update log.
+
+The public incident remains **PUBLICLY REPORTED**. The Lab instrument remains **ILLUSTRATIVE / NOT YET RUN** until an authorized rehearsal produces observations.
