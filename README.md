@@ -66,6 +66,7 @@ The Lab uses reusable instruments rather than one-off demonstrations:
 - [Friction Matrix](instruments/friction-matrix.md)
 - [Telemetry Specification](instruments/telemetry-spec.md)
 - [Evidence Ladder](instruments/evidence-ladder.md)
+- [Supervisor Calibration Protocol](instruments/supervisor-calibration.md)
 
 ## Evidence Discipline
 
