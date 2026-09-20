@@ -60,7 +60,7 @@ Unknown thresholds remain **UNKNOWN / REQUIRES AUTHORITATIVE VERIFICATION** unti
 - [Operational Readiness](https://github.com/theedreif/operational-readiness) — doctrine
 - [Judgment at the Edge](https://github.com/theedreif/judgment-at-the-edge) — decision architecture
 - [Decision Science](https://github.com/theedreif/decision-science) — positioning under uncertainty
-- [High-Consequence Communication](https://github.com/theedreif/high-consequence-communicatio) — closing The Gap
+- [High-Consequence Communication](https://github.com/theedreif/high-consequence-communication) — closing The Gap
 - [Field Notes](https://github.com/theedreif/field-notes) — observations and applications
 - [ORaaS](https://github.com/theedreif/oraas) — continuous organizational deployment
 
@@ -71,3 +71,12 @@ Unknown thresholds remain **UNKNOWN / REQUIRES AUTHORITATIVE VERIFICATION** unti
 **Ed Reif** — author, operational readiness architect, instructional systems designer, and decision-science practitioner.
 
 > **Engineering in. Capability out. Evidence always.**
+
+
+---
+
+## Field System Field Card
+
+**Seven Doors. Core operating loops. Field instruments. Evidence ladder.**
+
+[Download the Ed Reif Field System Field Card](https://github.com/theedreif/theedreif/blob/main/assets/field-system/Ed-Reif-Field-System-Field-Card.pdf) — the portable reference for the complete Field System.
