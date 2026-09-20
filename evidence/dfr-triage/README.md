@@ -56,6 +56,12 @@ The baseline is useful as an instrument-coherence check. It does not establish f
 
 No universal pass/fail threshold is asserted. Any operational threshold remains **UNKNOWN / REQUIRES AUTHORITATIVE VERIFICATION**.
 
+## Supervisor Calibration
+
+**[Open the Supervisor Calibration Pack](supervisor-calibration.md)** — independent blind review protocol, calibration record, disagreement taxonomy, and reviewer invitation.
+
+**Status: OPEN FOR INDEPENDENT REVIEW.** No supervisor result is claimed until an independent reviewer completes the record.
+
 ## Promotion Boundary
 
 This pack currently contains **SIMULATED** evidence. It cannot establish field readiness, agency performance, vendor performance, safety, policy compliance, or operational effectiveness.
