@@ -1,33 +1,55 @@
 # DFR Triage Results
 
-**Status: NOT YET RUN**
+**Status: RUN 001 COMPLETE — MODEL-GENERATED BASELINE**
 
-No observations have been collected for Evidence Pack v1.0. This file is intentionally empty of invented results.
+## Provenance
 
-## Predeclared Analysis
+Run 001 was executed by ChatGPT against the predeclared 12-scenario experimental key at the user's request to "do it for me." It is **not a human-participant run** and must not be represented as one.
 
-After a completed run report:
+Participant identifier: **MODEL-BASELINE**
 
-- number of participants;
-- number of scenario observations;
-- disposition agreement rate with the experimental key;
-- contradiction-detection rate;
-- count of high-confidence wrong recommendations accepted without meaningful review;
-- decision-latency distribution by condition;
-- revision after late evidence;
-- recovery after initially weak disposition.
+Evidence status: **SIMULATED**
 
-## Interpretation Questions
+## Run Summary
 
-1. Did high stated automation confidence correspond with more shallow acceptance?
-2. Did participants inspect contradictory evidence before disposition?
-3. Which friction variables most often changed judgment?
-4. Did fast decisions differ from slower decisions in evidence inspection?
-5. When participants initially missed a cue, did they recover when new evidence arrived?
-6. Did any scenario expose a defect in the instrument rather than participant judgment?
+- scenarios: **12**
+- observations: **12**
+- agreement with the predeclared experimental disposition: **12/12**
+- contradictory-cue scenarios: **8**
+- contradictory cues detected in the recorded baseline: **8/8**
+- high-confidence wrong recommendations accepted without review: **0**
+- dispositions: **3 ACCEPT / 7 INSPECT / 1 ESCALATE / 1 REJECT**
+
+## Measures Not Available
+
+Decision latency, genuine operator confidence, human attention, workload effects, and behavioral recovery cannot be validly measured from this model-generated baseline. Those fields remain **NA** rather than being invented.
+
+## What Run 001 Shows
+
+The scenario set, Logic Anchor, disposition taxonomy, telemetry schema, and scoring key can be traversed end-to-end without an internal classification conflict in this baseline run.
+
+## What Run 001 Does Not Show
+
+This run does **not** establish:
+
+- human performance;
+- automation-bias prevalence;
+- live DFR readiness;
+- agency or vendor performance;
+- predictive validity;
+- operational safety or policy compliance;
+- field effectiveness.
+
+Because the same system is applying a predeclared experimental logic to synthetic cases, 12/12 agreement is primarily an **instrument coherence check**, not evidence of operational competence.
+
+## Interpretation
+
+Run 001 closes the technical evidence loop for the first time, but it also exposes the next requirement: independent variation.
+
+A useful Run 002 should introduce a human participant, an independently generated decision process, or blinded model conditions that prevent direct access to the scoring key. Only then can disagreement, latency, cue detection, revision, and recovery become substantively informative.
 
 ## Evidence Boundary
 
-Whatever the result, report it as **SIMULATED** unless a higher evidence level is independently earned.
+**SIMULATED / MODEL BASELINE**
 
-Do not translate simulation performance into a field-readiness percentage.
+Do not translate this result into a field-readiness percentage.
