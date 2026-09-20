@@ -43,6 +43,10 @@ The Lab asks five questions:
 | [Silent Churn](experiments/silent-churn.md) | Can a green dashboard conceal a failing relationship? | Design demonstration |
 | [DFR Triage](experiments/dfr-triage.md) | Can confidence remain high while classification quality degrades? | Illustrative experiment |
 
+## Evidence Dashboard
+
+**[Open the Evidence Dashboard](evidence/dashboard.md)** — portfolio view of each case's strongest evidence, inspectable artifact, last evidence event, and next evidence required.
+
 ## Evidence Case Index
 
 **[Open the Evidence Case Index](evidence/case-index.md)** — compare ReadyLink, Dive-LD, DFR Triage, and Silent Churn through one inspectable Golden Thread:
