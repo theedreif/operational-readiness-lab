@@ -1,0 +1,1 @@
+run_id,observation_id,share_id,mission_state,intended_audience,observed_scope,auth_state,expiration_state,share_age_minutes,viewer_signal,trigger_detected,operator_disposition,decision_latency_seconds,action_latency_seconds,rationale,authoritative_rule,result,evidence_status
