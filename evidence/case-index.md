@@ -14,7 +14,7 @@ FAILURE MODE → SIGNAL → JUDGMENT → TOOL → FRICTION → EVIDENCE → UPDA
 |---|---|---|---|---|---|
 | [ReadyLink](../experiments/readylink.md) | DFR / information exposure | PUBLICLY REPORTED case + illustrative instrument | Normal sharing persists beyond intended audience/time | Does current sharing still match authorized mission intent? | Logic Anchor + Telemetry Specification |
 | [Dive-LD](../experiments/dive-ld.md) | Maritime autonomy | PUBLICLY REPORTED case + illustrative instrument | Platform degradation/loss becomes recovery and exposure problem | When does anomalous state require a different decision regime? | Logic Anchor + Friction Matrix |
-| [DFR Triage](../experiments/dfr-triage.md) | Agentic triage / DFR | ILLUSTRATIVE | Wrong/high-confidence recommendation receives shallow human approval | Approve, inspect, escalate, or override? | Logic Anchor + Friction Matrix + Telemetry Specification |
+| [DFR Triage](dfr-triage/README.md) | Agentic triage / DFR | ILLUSTRATIVE → predeclared simulation pack | Wrong/high-confidence recommendation receives shallow human approval | Accept, inspect, escalate, or reject? | Logic Anchor + Friction Matrix + Telemetry Specification |
 | [Silent Churn](../experiments/silent-churn.md) | Customer / commercial | ILLUSTRATIVE | Green dashboard conceals deteriorating relationship | Is the account healthy, or is the dashboard lagging reality? | Logic Anchor + Telemetry Specification |
 
 ## Evidence Discipline
@@ -44,3 +44,12 @@ Do not promote a case because the story is compelling.
 Promote a claim only when the evidence earns it.
 
 **Trace everything. Duplicate nothing. Earn the claim in arrears.**
+
+
+## Deep Evidence Packs
+
+### DFR Triage v1.0
+
+**[Open the evidence pack](dfr-triage/README.md)** — 12 predeclared synthetic scenarios, experimental Logic Anchor, Friction Matrix, telemetry schema, observation CSV, results template, claim → evidence map, and update log.
+
+**Current boundary:** the experiment has been specified but not yet run. No result has been invented, and no field-readiness claim is made.
