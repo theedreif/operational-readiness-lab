@@ -1,37 +1,77 @@
 # Dive-LD — Attritable Is Not a Readiness Word
 
-**Evidence status: PUBLIC CASE ANALYSIS**
+**Evidence status: PUBLICLY REPORTED / CASE ANALYSIS**
 
-## Readiness Question
-When platform loss is an accepted possibility, has the contingency system rehearsed what happens next?
+> **Golden Thread:** FAILURE MODE → SIGNAL → JUDGMENT → TOOL → FRICTION → EVIDENCE → UPDATE
 
-Public reporting in September 2026 identified an autonomous underwater vehicle recovered by Iran near the Strait of Hormuz as an Anduril Dive-LD. Reporting described a U.S. account that the vehicle had malfunctioned during a survey mission. This repository does not infer internal recovery procedures, decision thresholds, authorities, attempts, or mission data from the public incident.
+## Public Boundary
+Public reporting in September 2026 identified an autonomous underwater vehicle recovered by Iran near the Strait of Hormuz as closely matching an Anduril Dive-LD. Reporting also described a U.S. account that the vehicle had malfunctioned during a survey mission. This Lab case does not infer internal recovery procedures, decision thresholds, authorities, attempts, payload sensitivity, or mission data that are not established publicly.
 
 ## Failure Mode
-A degraded or unresponsive autonomous platform creates a recovery problem that may also become an exposure problem.
+A degraded, unresponsive, or lost autonomous platform stops being only a vehicle problem and becomes a recovery, exposure, mission-continuity, and decision-authority problem.
 
 ## Signal
-Time from loss of expected behavior or contact to classified state, followed by time to the decision required by that state.
+Candidate signals:
+- deviation from expected behavior;
+- loss or degradation of contact;
+- failure to meet a waypoint/state expectation;
+- elapsed time in an unresolved state;
+- evidence that recovery probability or exposure risk has changed.
 
-## Threshold
-The accountable operator must establish the point at which a disabled or unresponsive vehicle requires an exposure decision, using authoritative mission, security, safety, legal, and operating-area requirements.
+## Judgment
+**At what point does an anomalous autonomous-platform state require a different decision regime?**
+
+The operator must distinguish temporary degradation from a state requiring recovery, mission abort, exposure mitigation, escalation, or another authoritative response.
+
+## Tool
+**Logic Anchor + Friction Matrix**
+
+Example Logic Anchor:
+- **Trigger:** expected platform behavior/contact is lost or materially degraded.
+- **Filter:** mission phase, last known state, recoverability, operating area, safety/security implications, available assets, and authority.
+- **Anchor:** classify the state and execute the authorized contingency.
+
+The accountable operator must supply the actual thresholds and actions.
 
 ## Friction
-Rehearse the contingency cold: inconvenient watch, incomplete information, named operating environment, ambiguous state, and explicit decision authority.
-
-## Red
-A measurable gap between the authoritative decision threshold and rehearsal performance.
-
-The public incident itself does not establish that such an internal gap occurred.
+Rehearse the contingency cold:
+- inconvenient watch or shift handoff;
+- incomplete or conflicting telemetry;
+- ambiguous vehicle state;
+- competing mission priorities;
+- uncertain recovery opportunity;
+- explicit but distributed decision authority.
 
 ## Evidence
-Where policy permits: loss-of-contact events, timestamps, classifications, decisions, recoveries, false alarms, and near-misses.
+Where policy permits, capture:
+- anomaly/loss-of-contact timestamp;
+- time to classification;
+- classification selected;
+- time to required decision;
+- authority engaged;
+- recovery/escalation action;
+- false alarms;
+- near-misses;
+- eventual outcome.
+
+**Current evidence level:** vehicle loss/recovery is **PUBLICLY REPORTED**. Any proposed readiness gap or rehearsal result remains **UNPROVEN** until observed.
 
 ## Update
-Use recurring evidence to improve state classification, authority, recovery timing, and contingency doctrine.
+Use repeated evidence to improve:
+1. state classification;
+2. escalation and authority mapping;
+3. recovery timing;
+4. handoff doctrine;
+5. contingency rehearsal;
+6. exposure assumptions.
 
-**Attritability prices the loss. Readiness prepares for what the loss becomes.**
+## Inspectable Claim
+**Supported:** an attritable platform can still create consequential decisions after degradation or loss.
+
+**Not established by this case:** that an internal readiness failure caused the loss or recovery.
+
+> **Attritability prices the loss. Readiness prepares for what the loss becomes.**
 
 ### Public sources
 - Al Jazeera, 9 September 2026: https://www.aljazeera.com/news/2026/9/9/has-iran-captured-an-unmanned-us-submarine-what-we-know
-- Naval News, 8 September 2026: https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/
+- Naval News, 8/9 September 2026: https://www.navalnews.com/naval-news/2026/09/underwater-drone-captured-by-iran-matches-american-anduril-model/
